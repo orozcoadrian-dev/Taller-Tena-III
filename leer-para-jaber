@@ -1,0 +1,7 @@
+Esto lo vas a agregar la .gitignore
+.env
+__pycache__/
+*.pyc
+venv/
+.venv/
+backup*.sql
