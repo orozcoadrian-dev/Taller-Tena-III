@@ -25,6 +25,8 @@ services:
     image: inventario-api:1.0
     container_name: inventario-api
     restart: unless-stopped
+    mem_limit: 256m
+    cpus: 0.5
     environment:
       DB_HOST: db
       DB_PORT: 5432
